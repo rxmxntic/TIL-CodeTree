@@ -15,7 +15,7 @@ public class Main {
                 break;
             }
         }
-        for (int i = cnt; i >= 0; i--) {
+        for (int i = cnt - 1; i >= 0; i--) {
             if (arr[i] != 0) {
                 System.out.print(arr[i] + " ");
             }
